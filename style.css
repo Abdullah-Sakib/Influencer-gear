@@ -69,10 +69,23 @@
   background-image: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 100px 0px ;
-  
+  background-position: 100px 0px;
+
 }
 
-.banner-img img{
+.banner-img img {
   width: 80%;
+}
+
+/*--------------------------- brands section -------------------------------- */
+
+.brands {
+  border-top: 2px solid #e9e8e8;
+  border-bottom: 2px solid #e9e8e8;
+  width: 1110px;
+  height: 110px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
